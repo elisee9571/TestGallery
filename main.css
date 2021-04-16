@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('font/monumentextended-regular-webfont.woff2') format('woff2'), url('font/monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'monument_extendedregular';
+    color: #e5e5e5;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    width: 200%;
+    height: 200vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 0;
+}
+
+.block {
+    width: 400px;
+    height: 500px;
+    background: grey;
+    margin: 1em;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: 1s;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'monument_extendedregular';
+    font-weight: lighter;
+    font-size: 50px;
+    opacity: 0;
+    transition: 1s;
+    top: 20%;
+    left: -100px;
+    margin: 30px;
+}
+
+.block:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.block:hover h1 {
+    opacity: 1;
+    left: 0;
+}
+
+.block-1 {
+    background: url("img/1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-2 {
+    background: url("img/2.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-3 {
+    background: url("img/3.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-4 {
+    background: url("img/4.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5 {
+    background: url("img/5.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-6 {
+    background: url("img/6.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-7 {
+    background: url("img/7.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-8 {
+    background: url("img/8.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-9 {
+    background: url("img/9.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
